@@ -2,8 +2,10 @@
     - Obsidian Action and Knowledge System
     - Symbolism? Source of wisdom and strength
 - Intentions
-    - Document install
+    - Document installation
         - Minimal theme
+        - Plugins
+            - Dataview
     - Document design rationale
         - Hierarchical PARA with Dataview
             - Domain vs Area

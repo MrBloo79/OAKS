@@ -1,2 +1,4 @@
 .obsidian/core-plugins-migration.json
 .obsidian/themes/Minimal/*
+.obsidian/plugins/dataview/ma*.js*
+.obsidian/plugins/dataview/styles.css
