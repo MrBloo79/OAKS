@@ -69,11 +69,12 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templates:Insert template": false,
       "switcher:Open quick switcher": false,
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false
     }
   },
-  "active": "2e5903d3eb40e0a7",
+  "active": "",
   "lastOpenFiles": []
 }
