@@ -1,6 +1,6 @@
 - OAKS
     - Obsidian Action and Knowledge System
-    - Symbolism
+    - Symbolism? Source of wisdom and strength
 - Intentions
     - Document install
         - Minimal theme
@@ -11,6 +11,7 @@
             - Project? Sequence of tasks to obtain a specific result
         - Folders vs Symbolic Links
             - Xtras
+                - Statuses? Fit both asset or project
                 - Templates
                     - Fields
                         - Created vs Identified? Consistent with task fields
