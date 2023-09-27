@@ -1,1 +1,8 @@
-{}
+{
+  "propertiesInDocument": "hidden",
+  "useTab": false,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./"
+}
