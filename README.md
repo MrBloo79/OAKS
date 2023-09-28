@@ -11,7 +11,7 @@
             - Domain vs Area
             - Asset vs Resource
             - Project? Sequence of tasks to obtain a specific result
-        - Folders vs Symbolic Links
+        - Folders vs Symbolic Links? Avoids lock issue with OneDrive sync
             - Xtras
                 - Statuses? Fit both asset or project
                 - Templates
@@ -25,6 +25,7 @@
         - Saved filters
         - Git Sync
         - Burndown charts
+        - View private or shared status (table, path)
 - Git config
 ```
 [user]
