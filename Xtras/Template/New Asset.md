@@ -1,5 +1,5 @@
 Type: #asset
 Created:: 
-Status:: 
+Status:: [[Identified]]
 Domain:: 
 Details:: 

@@ -1,10 +1,10 @@
-Type: #contact
+Type: #contact, #asset 
 Created:: 
-Status:: 
+Status:: [[Identified]]
 Domain:: 
 Details:: 
-Motive::
-Mail:
-Phone:
-Contrib::
-Skill::
+Motive:: 
+Mail: 
+Phone: 
+Contrib:: 
+Skill:: 

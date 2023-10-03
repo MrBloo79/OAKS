@@ -1,5 +1,5 @@
-Type: #domain
+Type: #domain, #asset 
 Created:: 
 Status:: 
-Domain:: 
+Domain:: [[Identified]]
 Details:: 

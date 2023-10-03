@@ -3,8 +3,8 @@
 Type: #project
 Created:: 
 Due:: 
-Status:: 
-Rank:: 1
+Status:: [[Identified]]
+Rank:: 
 Recipient:: 
 Requester:: 
 Assignee:: 
