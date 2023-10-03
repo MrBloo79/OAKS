@@ -6,6 +6,7 @@
         - Minimal theme
         - Plugins
             - Dataview
+            - Remotely Save (optional)
     - Document design rationale
         - Hierarchical PARA with Dataview
             - Domain vs Area
@@ -21,11 +22,13 @@
         - Theme? Allow more customization (colors, task statuses)
         - Community Plugins? Worth or not
     - Add features
+        - Dangling links detection
         - Custom task statuses transitions
         - Saved filters
         - Git Sync
         - Burndown charts
         - View private or shared status (table, path)
+        - Switch to Self-hosted Sync
 - Git config
 ```
 [user]
