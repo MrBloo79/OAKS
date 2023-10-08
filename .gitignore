@@ -11,5 +11,6 @@
 !Xtras/Status/*
 !Xtras/Template/
 !Xtras/Template/*
+!Xtras/Vault.md
 .obsidian/core-plugins-migration.json
 .obsidian/workspace.json
