@@ -22,6 +22,7 @@
         - Theme? Allow more customization (colors, task statuses)
         - Community Plugins? Worth or not
     - Add features
+        - Folder File
         - Dangling links detection
         - Custom task statuses transitions
         - Saved filters
