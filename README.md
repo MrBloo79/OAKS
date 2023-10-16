@@ -22,7 +22,14 @@
         - Theme? Allow more customization (colors, task statuses)
         - Community Plugins? Worth or not
     - Add features
+        - Auto Link Title
         - Folder File
+        - List Modified
+        - Smart Rename
+        - Lists Callout
+        - Image Converter
+        - Better Search Views
+        - External Link Helper
         - Dangling links detection
         - Custom task statuses transitions
         - Saved filters
