@@ -1,4 +1,6 @@
 [
   "dataview",
-  "remotely-save"
+  "remotely-save",
+  "obsidian-advanced-new-file",
+  "obsidian-text-expander-js"
 ]

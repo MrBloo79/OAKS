@@ -5,7 +5,9 @@
     - Document installation
         - Minimal theme
         - Plugins
+            - Advanced New File
             - Dataview
+            - Inline Scripts (more fluid than Templater or QuickAdd)
             - Remotely Save (optional)
     - Document design rationale
         - Hierarchical PARA with Dataview
