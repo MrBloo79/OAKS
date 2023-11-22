@@ -2,7 +2,9 @@
   "file-explorer",
   "global-search",
   "switcher",
+  "canvas",
   "daily-notes",
   "command-palette",
-  "editor-status"
+  "editor-status",
+  "bookmarks"
 ]
