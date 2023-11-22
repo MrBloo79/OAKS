@@ -1,48 +1,54 @@
-- OAKS
-    - Obsidian Action and Knowledge System
-    - Symbolism? Source of wisdom and strength
-- Intentions
-    - Document installation
-        - Minimal theme
-        - Plugins
-            - Advanced New File
-            - Dataview
-            - Inline Scripts (more fluid than Templater or QuickAdd)
-            - Remotely Save (optional)
-    - Document design rationale
-        - Hierarchical PARA with Dataview
-            - Domain vs Area
-            - Asset vs Resource
-            - Project? Sequence of tasks to obtain a specific result
-        - Folders vs Symbolic Links? Avoids lock issue with OneDrive sync
-            - Xtras
-                - Statuses? Fit both asset or project
-                - Templates
-                    - Fields
-                        - Created vs Identified? Consistent with task fields
-        - Properties? Doesn't play nicely with Hover Editor
-        - Theme? Allow more customization (colors, task statuses)
-        - Community Plugins? Worth or not
-    - Add features
-        - Auto Link Title
-        - Folder File
-        - List Modified
-        - Smart Rename
-        - Lists Callout
-        - Image Converter
-        - Better Search Views
-        - External Link Helper
-        - Dangling links detection
-        - Custom task statuses transitions
-        - Saved filters
-        - Git Sync
-        - Burndown charts
-        - View private or shared status (table, path)
-        - Switch to Self-hosted Sync
-- Git config
-```
-[user]
-	name = MrBloo79
-	email = 146093172+MrBloo79@users.noreply.github.com
-```
+OAKS (Obsidian Action and Knowledge System) is my proposal for an Obsidian powered second brain, naturally developed with OAKS itself!
 
+# Installation
+
+1. Clone or download and unzip this repo
+2. Set it up as new Obsidian vault
+3. Install Minimal theme
+4. Install required plugins
+    1. Advanced New File
+    2. Dataview
+    3. Inline Scripts
+5. Install optional plugins
+    1. Git
+    2. Remotely Save
+6. Set optional git repository options
+   ```bash
+    git config core.autocrlf false # Obsidian works with LF only for now
+    git config user.name <your name>
+    git config user.email <your mail>
+    ```
+
+# Roadmap
+
+## Features
+
+- [/] Quick capture (project, task, asset, date, link) [🏅:: 1]
+- [ ] Quick edit [🏅:: 1]
+- [/] Advanced view (reusable, drill down-able, sortable, filterable) [🏅:: 1]
+- [ ] Auto journaling [🏅:: 3]
+- [ ] Custom templates (item, collection, issue link) [🏅:: 3]
+- [ ] Better file management (folder note, attachement) [🏅:: 3]
+- [ ] Extended search (PDF, backlink)[🏅:: 3]
+- [ ] Inbox and unresolved links processing [🏅:: 3]
+- [ ] Extended import and export (CSV, slide deck, Word) [🏅:: 3]
+- [ ] Self-hosted sync [🏅:: 3]
+
+## UX
+
+- [ ] Non-clickable unresolved links [🏅:: 1]
+- [ ] Sortable statuses [🏅:: 1]
+- [ ] Colored statuses [🏅:: 2]
+- [ ] Consistent task annotations [🏅:: 3]
+- [ ] Custom task statuses transitions [🏅:: 3]
+- [ ] Accent colored theme [🏅:: 3]
+- [ ] Private and shared marker [🏅:: 3]
+- [ ] Consistent desktop and mobile UX [🏅:: 3]
+
+# Doc
+
+- [ ] Install (desktop and mobile)
+- [ ] Design rationales and inspirations
+    - [ ] Name symbolism
+    - [ ] Note types
+    - [ ] Sortable statuses (with UFT-8 special characters and icons)
