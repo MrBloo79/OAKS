@@ -11,7 +11,7 @@ OAKS (Obsidian Action and Knowledge System) is my proposal for an Obsidian power
     3. Inline Scripts
 5. Install optional plugins
     1. Git
-    2. Remotely Save
+    2. Remotely Secure
 6. Set optional git repository options
    ```bash
     git config core.autocrlf false # Obsidian works with LF only for now
