@@ -12,7 +12,7 @@
   "shortcutFiles": [
     {
       "enabled": true,
-      "address": "Xtras/Template/Metadata.sfile.md"
+      "address": "Xtra/Template/Metadata.sfile.md"
     }
   ],
   "shortcuts": "\n__\n\n__\n// Placeholder to avoid \"No shortcut\" warning popup\n__\n\n",
