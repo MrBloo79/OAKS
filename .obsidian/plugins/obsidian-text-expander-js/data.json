@@ -1,7 +1,7 @@
 {
   "version": "0.24.12",
-  "prefix": ";;",
-  "suffix": "::",
+  "prefix": ";",
+  "suffix": ":",
   "expansionPrefix": "",
   "expansionLinePrefix": "> ",
   "expansionSuffix": "\\n\\n",
@@ -13,6 +13,10 @@
     {
       "enabled": true,
       "address": "Xtra/Template/Metadata.sfile.md"
+    },
+    {
+      "enabled": true,
+      "address": "Xtra/Template/Annotation.sfile.md"
     }
   ],
   "shortcuts": "\n__\n\n__\n// Placeholder to avoid \"No shortcut\" warning popup\n__\n\n",
