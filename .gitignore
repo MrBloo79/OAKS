@@ -13,6 +13,8 @@
 !Xtra/Shortcut/*
 !Xtra/Template/
 !Xtra/Template/*
+!Xtra/View/
+!Xtra/View/*
 !Xtra/Vault.md
 .obsidian/core-plugins-migration.json
 .obsidian/workspace.json
