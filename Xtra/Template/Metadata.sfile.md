@@ -42,7 +42,7 @@ function getMetadata(base, derived="", extra="") {
     let domain = getDomain(app.workspace.getActiveFile().path);
     type += `Domain:: ${domain}\n`;
     type += 'Details:: \n';
-    if (base == 'contact' || base == 'item' || base == 'project') {
+    if (derived == 'contact' || base == 'item' || base == 'project') {
         type += 'Motive:: \n';
     }
     if (derived == 'contact') {
@@ -62,6 +62,15 @@ function getMetadata(base, derived="", extra="") {
 __
 __
 ```
+project
+```
+__
+```js
+return getMetadata('project');
+```
+__
+__
+```
 contact
 ```
 __
@@ -71,10 +80,46 @@ return getMetadata('asset', 'contact');
 __
 __
 ```
-project
+doc
 ```
 __
 ```js
-return getMetadata('project');
+return getMetadata('asset', 'doc');
+```
+__
+__
+```
+mail
+```
+__
+```js
+return getMetadata('asset', 'mail');
+```
+__
+__
+```
+memo
+```
+__
+```js
+return getMetadata('asset', 'memo');
+```
+__
+__
+```
+article
+```
+__
+```js
+return getMetadata('asset', 'article');
+```
+__
+__
+```
+hint
+```
+__
+```js
+return getMetadata('asset', 'hint');
 ```
 __
