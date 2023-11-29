@@ -7,10 +7,13 @@ OAKS (Obsidian Action and Knowledge System) is my proposal for an Obsidian power
 3. Install Minimal theme
 4. Install required plugins
     1. Advanced New File
-    2. Dataview
-    3. Inline Scripts
-    4. List Modified
-    5. Natural Language Dates
+    2. AidenLx's Folder Note
+    3. Codeblock Template
+    4. Dataview
+    5. Folder Note Core
+    6. Inline Scripts
+    7. List Modified
+    8. Natural Language Dates
 5. Install optional plugins
     1. Git
     2. Remotely Secure
@@ -53,6 +56,7 @@ OAKS (Obsidian Action and Knowledge System) is my proposal for an Obsidian power
 - [ ] Install (desktop and mobile)
 - [ ] Design rationales and inspirations
     - [ ] Name symbolism
-    - [ ] Template engine choice (autocomplete)
+    - [ ] Template plugin choice (autocomplete)
     - [ ] Note types
     - [ ] Sortable statuses (with UFT-8 special characters and icons)
+    - [ ] Folder Note plugin choice (template)

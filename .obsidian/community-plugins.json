@@ -4,5 +4,8 @@
   "remotely-secure",
   "nldates-obsidian",
   "obsidian-text-expander-js",
-  "obsidian-list-modified"
+  "obsidian-list-modified",
+  "codeblock-template",
+  "alx-folder-note",
+  "folder-note-core"
 ]

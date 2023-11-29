@@ -1,0 +1,14 @@
+{
+  "sourcePath": "Xtra/View",
+  "oldValidSourcePath": "Xtra/View",
+  "sourceNameList": [
+    "domain"
+  ],
+  "sourceName2FilePath": {
+    "domain": "Xtra/View/Domain.md"
+  },
+  "anonymousVariableNamePrefix": "anonymous_var_",
+  "sourceInfos": {
+    "domain": []
+  }
+}
