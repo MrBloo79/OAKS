@@ -15,4 +15,5 @@
 !Xtra/Template/*
 !Xtra/Vault.md
 .obsidian/core-plugins-migration.json
+.obsidian/plugins/obsidian-list-modified/data.json
 .obsidian/workspace.json

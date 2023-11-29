@@ -9,7 +9,7 @@ OAKS (Obsidian Action and Knowledge System) is my proposal for an Obsidian power
     1. Advanced New File
     2. Dataview
     3. Inline Scripts
-    4. List Modified
+    4. List Modified (with excluded "Dump,Journal,Xtra", space after headings and no automatic note creation)
     5. Natural Language Dates
 5. Install optional plugins
     1. Git
