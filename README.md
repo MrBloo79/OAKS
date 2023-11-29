@@ -9,7 +9,7 @@ OAKS (Obsidian Action and Knowledge System) is my proposal for an Obsidian power
     1. Advanced New File
     2. Dataview
     3. Inline Scripts
-    4. List Modified (with excluded "Dump,Journal,Xtra", space after headings and no automatic note creation)
+    4. List Modified
     5. Natural Language Dates
 5. Install optional plugins
     1. Git
@@ -19,6 +19,7 @@ OAKS (Obsidian Action and Knowledge System) is my proposal for an Obsidian power
     git config core.autocrlf false # Obsidian works with LF only for now
     git config user.name <your name>
     git config user.email <your mail>
+    git update-index --assume-unchanged .obsidian/plugins/obsidian-list-modified/data.json # Tracked notes are stored in plugin settings for now
     ```
 
 # Roadmap

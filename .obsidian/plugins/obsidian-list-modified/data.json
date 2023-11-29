@@ -15,48 +15,5 @@
   "createdHeading": "Created",
   "separateDeleted": false,
   "deletedHeading": "Deleted",
-  "lastTrackedDate": "2023-11-29",
-  "trackedFiles": [
-    {
-      "path": "Journal/2023-11-29.md",
-      "supposedList": "deleted",
-      "matchesCriteria": true
-    },
-    {
-      "path": "Xtra/Template/Daily.md",
-      "matchesCriteria": false,
-      "supposedList": "modified"
-    },
-    {
-      "path": "Feature/Project/Quick Capture.md",
-      "matchesCriteria": true,
-      "supposedList": "modified"
-    },
-    {
-      "path": "Feature/Project/sdfsdf.md",
-      "supposedList": "deleted",
-      "matchesCriteria": true
-    },
-    {
-      "path": "Feature/Project/Untitled.md",
-      "supposedList": "deleted",
-      "matchesCriteria": true
-    },
-    {
-      "path": "Feature/Project/Untitled 1.md",
-      "supposedList": "deleted",
-      "matchesCriteria": true
-    },
-    {
-      "path": "README.md",
-      "matchesCriteria": true,
-      "supposedList": "modified"
-    },
-    {
-      "path": "Xtra/Template/Metadata.sfile.md",
-      "matchesCriteria": false,
-      "supposedList": "modified"
-    }
-  ],
   "verboseModeEnabled": false
 }
