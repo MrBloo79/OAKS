@@ -1,5 +1,5 @@
 {
   "folder": "Journal",
-  "template": "Xtras/Template/New Record",
+  "template": "Xtra/Template/Daily",
   "autorun": false
 }

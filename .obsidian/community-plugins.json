@@ -1,7 +1,8 @@
 [
   "obsidian-advanced-new-file",
   "dataview",
-  "obsidian-text-expander-js",
   "remotely-secure",
-  "nldates-obsidian"
+  "nldates-obsidian",
+  "obsidian-text-expander-js",
+  "obsidian-list-modified"
 ]

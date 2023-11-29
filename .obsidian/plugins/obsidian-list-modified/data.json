@@ -1,0 +1,57 @@
+{
+  "tags": "",
+  "excludedFolders": "Dump,Journal,Xtra",
+  "ignoredNameContains": "",
+  "outputFormat": "- [[link]]",
+  "appendSpaceAfterHeadings": true,
+  "timeFormat": "YYYY-MM-DD",
+  "autoCreateLogNote": true,
+  "logNoteType": "daily",
+  "writeInterval": 0,
+  "autoCreatePrimaryHeading": false,
+  "primaryHeading": "Changed Notes",
+  "modifiedHeading": "Modified",
+  "separateCreated": false,
+  "createdHeading": "Created",
+  "separateDeleted": false,
+  "deletedHeading": "Deleted",
+  "lastTrackedDate": "2023-11-29",
+  "trackedFiles": [
+    {
+      "path": "Journal/2023-11-29.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "Xtra/Template/Daily.md",
+      "matchesCriteria": false,
+      "supposedList": "modified"
+    },
+    {
+      "path": "Feature/Project/Quick Capture.md",
+      "matchesCriteria": true,
+      "supposedList": "modified"
+    },
+    {
+      "path": "Feature/Project/sdfsdf.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "Feature/Project/Untitled.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "Feature/Project/Untitled 1.md",
+      "supposedList": "deleted",
+      "matchesCriteria": true
+    },
+    {
+      "path": "README.md",
+      "matchesCriteria": true,
+      "supposedList": "modified"
+    }
+  ],
+  "verboseModeEnabled": false
+}

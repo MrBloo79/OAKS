@@ -9,7 +9,8 @@ OAKS (Obsidian Action and Knowledge System) is my proposal for an Obsidian power
     1. Advanced New File
     2. Dataview
     3. Inline Scripts
-    4. Natural Language Dates
+    4. List Modified
+    5. Natural Language Dates
 5. Install optional plugins
     1. Git
     2. Remotely Secure
@@ -51,5 +52,6 @@ OAKS (Obsidian Action and Knowledge System) is my proposal for an Obsidian power
 - [ ] Install (desktop and mobile)
 - [ ] Design rationales and inspirations
     - [ ] Name symbolism
+    - [ ] Template engine choice (autocomplete)
     - [ ] Note types
     - [ ] Sortable statuses (with UFT-8 special characters and icons)
