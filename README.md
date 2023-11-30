@@ -8,12 +8,13 @@ OAKS (Obsidian Action and Knowledge System) is my proposal for an Obsidian power
 4. Install required plugins
     1. Advanced New File
     2. AidenLx's Folder Note
-    3. Codeblock Template
-    4. Dataview
-    5. Folder Note Core
-    6. Inline Scripts
-    7. List Modified
-    8. Natural Language Dates
+    3. Auto Link Title
+    4. Codeblock Template
+    5. Dataview
+    6. Folder Note Core
+    7. Inline Scripts
+    8. List Modified
+    9. Natural Language Dates
 5. Install optional plugins
     1. Git
     2. Remotely Secure
