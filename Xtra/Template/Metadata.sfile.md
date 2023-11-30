@@ -98,20 +98,29 @@ return getMetadata('asset', 'mail');
 __
 __
 ```
-memo
-```
-__
-```js
-return getMetadata('asset', 'memo');
-```
-__
-__
-```
 article
 ```
 __
 ```js
 return getMetadata('asset', 'article');
+```
+__
+__
+```
+tool
+```
+__
+```js
+return getMetadata('asset', 'tool');
+```
+__
+__
+```
+memo
+```
+__
+```js
+return getMetadata('asset', 'memo');
 ```
 __
 __
