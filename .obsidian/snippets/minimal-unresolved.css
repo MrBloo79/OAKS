@@ -1,0 +1,10 @@
+.cm-hmd-internal-link:has(.is-unresolved) {
+    opacity: 1 !important;
+    pointer-events: none !important;
+}
+.is-unresolved {
+    color: var(--color-red) !important;
+}
+.is-unresolved .cm-underline {
+    text-decoration: none !important;
+}

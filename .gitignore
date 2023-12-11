@@ -4,6 +4,8 @@
 !.obsidian/*
 !.obsidian/plugins/*/
 !.obsidian/plugins/*/data.json
+!.obsidian/snippets
+!.obsidian/snippets/*
 !LICENSE
 !README.md
 !Xtra/

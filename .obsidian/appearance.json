@@ -1,5 +1,8 @@
 {
   "accentColor": "",
   "cssTheme": "Minimal",
-  "baseFontSizeAction": false
+  "baseFontSizeAction": false,
+  "enabledCssSnippets": [
+    "minimal-unresolved"
+  ]
 }
