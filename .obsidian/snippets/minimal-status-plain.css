@@ -1,0 +1,63 @@
+.data-link-text[data-link-tags="#purple"] {
+    color: var(--color-purple);
+    pointer-events: none;
+}
+.data-link-text[data-link-tags="#purple"] .cm-underline {
+    text-decoration: none !important;
+}
+
+.data-link-text[data-link-tags="#blue"] {
+    color: var(--color-blue);
+    pointer-events: none;
+}
+.data-link-text[data-link-tags="#blue"] .cm-underline {
+    text-decoration: none !important;
+}
+
+.data-link-text[data-link-tags="#cyan"] {
+    color: var(--color-cyan);
+    pointer-events: none;
+}
+.data-link-text[data-link-tags="#cyan"] .cm-underline {
+    text-decoration: none !important;
+}
+
+.data-link-text[data-link-tags="#green"] {
+    color: var(--color-green);
+    pointer-events: none;
+}
+.data-link-text[data-link-tags="#green"] .cm-underline {
+    text-decoration: none !important;
+}
+
+.data-link-text[data-link-tags="#yellow"] {
+    color: var(--color-yellow);
+    pointer-events: none;
+}
+.data-link-text[data-link-tags="#yellow"] .cm-underline {
+    text-decoration: none !important;
+}
+
+.data-link-text[data-link-tags="#orange"] {
+    color: var(--color-orange);
+    pointer-events: none;
+}
+.data-link-text[data-link-tags="#orange"] .cm-underline {
+    text-decoration: none !important;
+}
+
+.data-link-text[data-link-tags="#red"] {
+    color: var(--color-red);
+    pointer-events: none;
+}
+.data-link-text[data-link-tags="#red"] .cm-underline {
+    text-decoration: none !important;
+}
+
+.data-link-text[data-link-tags="#pink"] {
+    color: var(--color-pink);
+    pointer-events: none;
+}
+.data-link-text[data-link-tags="#pink"] .cm-underline {
+    text-decoration: none !important;
+}

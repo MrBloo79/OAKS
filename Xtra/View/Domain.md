@@ -5,7 +5,7 @@
 TABLE WITHOUT ID
     Domain,
     file.link AS Project,
-    Status.aliases[0] AS S,
+    link(Status, Status.aliases[0]) AS S,
     Rank AS P,
     Due,
     Details
@@ -19,7 +19,7 @@ WHERE contains(file.path, replace(this.file.name, "Vault", "/"))
 TABLE WITHOUT ID
     file.link AS Project,
     regexreplace(task.text, "([➕📅⏳✅]|(\[|\()[🏅💬👤🔗]).*", "") AS Action,
-    [[Map]].get[task.status].aliases[0] AS S,
+    [[Map]].get[task.status] AS S,
     task.🏅 AS P,
     task.due AS Due,
     task.🔗 AS Details

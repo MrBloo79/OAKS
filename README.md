@@ -15,6 +15,7 @@ OAKS (Obsidian Action and Knowledge System) is my proposal for an Obsidian power
     7. Inline Scripts
     8. List Modified
     9. Natural Language Dates
+    10. Supercharged Links
 5. Install optional plugins
     1. Git
     2. Remotely Secure
@@ -45,7 +46,7 @@ OAKS (Obsidian Action and Knowledge System) is my proposal for an Obsidian power
 
 - [x] Non-clickable unresolved links [🏅:: 1] ✅ 2023-12-11
 - [x] Sortable statuses (project, task) [🏅:: 1] ✅ 2023-12-11
-- [ ] Colored statuses [🏅:: 2]
+- [x] Colored statuses [🏅:: 2] ✅ 2023-12-11
 - [ ] Consistent task annotations [🏅:: 3]
 - [ ] Custom task statuses transitions [🏅:: 3]
 - [ ] Accent colored theme [🏅:: 3]

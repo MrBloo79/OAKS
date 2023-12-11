@@ -3,6 +3,7 @@
   "cssTheme": "Minimal",
   "baseFontSizeAction": false,
   "enabledCssSnippets": [
+    "minimal-status-plain",
     "minimal-unresolved"
   ]
 }
