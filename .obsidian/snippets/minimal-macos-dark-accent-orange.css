@@ -1,0 +1,6 @@
+.theme-dark.minimal-macos-dark {
+    --accent-h: 31 !important;
+    --accent-s: 79% !important;
+    --accent-l: 58% !important;
+    --icon-color: var(--color-orange) !important;
+}

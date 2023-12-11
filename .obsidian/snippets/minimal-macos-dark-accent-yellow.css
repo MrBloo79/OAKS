@@ -1,0 +1,6 @@
+.theme-dark.minimal-macos-dark {
+    --accent-h: 48 !important;
+    --accent-s: 100% !important;
+    --accent-l: 50% !important;
+    --icon-color: var(--color-yellow) !important;
+}

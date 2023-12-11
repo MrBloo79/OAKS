@@ -4,6 +4,9 @@
   "baseFontSizeAction": false,
   "enabledCssSnippets": [
     "minimal-status-plain",
-    "minimal-unresolved"
-  ]
+    "minimal-unresolved",
+    "minimal-macos-dark",
+    "minimal-macos-dark-accent-orange"
+  ],
+  "theme": "obsidian"
 }
