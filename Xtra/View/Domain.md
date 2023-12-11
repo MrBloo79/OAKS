@@ -5,8 +5,8 @@
 TABLE WITHOUT ID
     Domain,
     file.link AS Project,
-    Status,
-    Rank AS Priority,
+    Status.aliases[0] AS S,
+    Rank AS P,
     Due,
     Details
 FROM #project
