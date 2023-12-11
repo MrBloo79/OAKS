@@ -19,7 +19,7 @@ WHERE contains(file.path, replace(this.file.name, "Vault", "/"))
 TABLE WITHOUT ID
     file.link AS Project,
     regexreplace(task.text, "([➕📅⏳✅]|(\[|\()[🏅💬👤🔗]).*", "") AS Action,
-    "`" + task.status + "`" AS S,
+    [[Map]].get[task.status].aliases[0] AS S,
     task.🏅 AS P,
     task.due AS Due,
     task.🔗 AS Details

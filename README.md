@@ -44,7 +44,7 @@ OAKS (Obsidian Action and Knowledge System) is my proposal for an Obsidian power
 ## UX
 
 - [x] Non-clickable unresolved links [🏅:: 1] ✅ 2023-12-11
-- [/] Sortable statuses (project, task) [🏅:: 1]
+- [x] Sortable statuses (project, task) [🏅:: 1] ✅ 2023-12-11
 - [ ] Colored statuses [🏅:: 2]
 - [ ] Consistent task annotations [🏅:: 3]
 - [ ] Custom task statuses transitions [🏅:: 3]
