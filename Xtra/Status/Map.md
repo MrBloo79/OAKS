@@ -1,10 +1,10 @@
 ---
 get:
-  " ": "[[Identified|₁Idn]]"
-  i: "[[Detailed|₂Dtl]]"
-  <: "[[Ready|₃Rdy]]"
-  /: "[[Started|₄Str]]"
-  ">": "[[Pending|₅Pnd]]"
-  "-": "[[Dropped|₆Drp]]"
-  x: "[[Over|₇Ovr]]"
+  " ": "[[Identified|₁:luc_circle:]]"
+  "i": "[[Detailed|₂:luc_info:]]"
+  "<": "[[Ready|₃:luc_calendar:]]"
+  "/": "[[Started|₄:luc_contrast:]]"
+  ">": "[[Pending|₅:luc_send:]]"
+  "-": "[[Dropped|₆:luc_minus_circle:]]"
+  "x": "[[Over|₇:luc_check_circle:]]"
 ---

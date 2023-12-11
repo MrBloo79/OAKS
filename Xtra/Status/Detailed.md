@@ -1,6 +1,4 @@
 ---
-aliases:
-  - ₂Dtl
-tags:
-  - blue
+aliases: "₂:luc_info:"
+tags: "blue"
 ---

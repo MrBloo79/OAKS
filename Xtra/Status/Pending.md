@@ -1,6 +1,4 @@
 ---
-aliases:
-  - ₅Pnd
-tags:
-  - orange
+aliases: "₅:luc_send:"
+tags: "orange"
 ---

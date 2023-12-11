@@ -12,10 +12,11 @@ OAKS (Obsidian Action and Knowledge System) is my proposal for an Obsidian power
     4. Codeblock Template
     5. Dataview
     6. Folder Note Core
-    7. Inline Scripts
-    8. List Modified
-    9. Natural Language Dates
-    10. Supercharged Links
+    7. Icon Shortcodes
+    8. Inline Scripts
+    9. List Modified
+    10. Natural Language Dates
+    11. Supercharged Links
 5. Install optional plugins
     1. Git
     2. Remotely Secure

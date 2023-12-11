@@ -1,6 +1,4 @@
 ---
-aliases:
-  - ₆Drp
-tags:
-  - red
+aliases: "₆:luc_minus_circle:"
+tags: "red"
 ---

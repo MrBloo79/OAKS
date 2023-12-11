@@ -1,6 +1,4 @@
 ---
-aliases:
-  - ₁Idn
-tags:
-  - purple
+aliases: "₁:luc_circle:"
+tags: "purple"
 ---

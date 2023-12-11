@@ -1,6 +1,4 @@
 ---
-aliases:
-  - ₃Rdy
-tags:
-  - green
+aliases: "₃:luc_calendar:"
+tags: "green"
 ---

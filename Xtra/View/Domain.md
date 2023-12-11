@@ -5,7 +5,7 @@
 TABLE WITHOUT ID
     Domain,
     file.link AS Project,
-    link(Status, Status.aliases[0]) AS S,
+    link(Status, Status.aliases) AS S,
     Rank AS P,
     Due,
     Details
