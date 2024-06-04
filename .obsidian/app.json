@@ -1,1 +1,7 @@
-{}
+{
+  "useTab": false,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "./",
+  "showUnsupportedFiles": true
+}
