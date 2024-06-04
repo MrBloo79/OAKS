@@ -1,4 +1,4 @@
-OAKS (Obsidian Action and Knowledge System) is my proposal for an Obsidian powered second brain, naturally developed with OAKS itself!
+OAKS (Obsidian Action and Knowledge System) is my proposal for an Obsidian powered second brain, of course developed with OAKS itself!
 
 # Installation
 
@@ -33,9 +33,9 @@ OAKS (Obsidian Action and Knowledge System) is my proposal for an Obsidian power
 
 ## Features
 
-- [/] Quick capture (project, task, asset, date, link) [🏅:: 1]
+- [ ] Quick capture (project, task, asset, date, link) [🏅:: 1]
 - [ ] Quick edit [🏅:: 1]
-- [/] Advanced view (reusable, drill down-able, sortable, filterable) [🏅:: 1]
+- [ ] Advanced view (reusable, drill down-able, sortable, filterable) [🏅:: 1]
 - [ ] Auto journaling [🏅:: 3]
 - [ ] Custom templates (item, collection, issue link) [🏅:: 3]
 - [ ] Better file management (folder note, attachement) [🏅:: 3]
