@@ -37,7 +37,7 @@ TABLE WITHOUT ID
     Status,
     file.tags[0] AS Type,
     Details
-FROM #asset
+FROM !#project
 WHERE contains(file.path, replace(this.file.name, "Vault", "/"))
 ```
 ````
