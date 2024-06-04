@@ -38,6 +38,20 @@ comment: "Allow required plugins restoration"
 }
 
 ```
+# .obsidian/plugins/obsidian-icon-shortcodes/manifest.json 
+- Created :6/4/2024, 5:50:53 PM 
+- Modified:6/4/2024, 5:50:53 PM 
+
+```screwdriver:.obsidian/plugins/obsidian-icon-shortcodes/manifest.json:plain
+{
+  "id": "obsidian-icon-shortcodes",
+  "name": "Icon Shortcodes",
+  "version": "0.0.0",
+  "description": "Insert emoji and custom icons with shortcodes",
+  "author": "AidenLx",
+  "isDesktopOnly": false
+}
+```
 # .obsidian/plugins/obsidian-screwdriver/manifest.json 
 - Created :6/4/2024, 3:14:44 PM 
 - Modified:6/4/2024, 3:14:44 PM 
