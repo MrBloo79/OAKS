@@ -1,4 +1,7 @@
-Type: #domain
+---
+tags: domain
+---
+
 Created:: 2023-10-03
 Status:: [[Detailed]]
 Domain:: 

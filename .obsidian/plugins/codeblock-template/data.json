@@ -1,8 +1,14 @@
 {
-  "sourcePath": "templates",
-  "oldValidSourcePath": "templates",
-  "sourceNameList": [],
-  "sourceName2FilePath": {},
+  "sourcePath": "Xtra/View",
+  "oldValidSourcePath": "Xtra/View",
+  "sourceNameList": [
+    "domain"
+  ],
+  "sourceName2FilePath": {
+    "domain": "Xtra/View/Domain.md"
+  },
   "anonymousVariableNamePrefix": "anonymous_var_",
-  "sourceInfos": {}
+  "sourceInfos": {
+    "domain": []
+  }
 }
