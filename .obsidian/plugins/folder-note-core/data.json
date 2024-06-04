@@ -1,8 +1,0 @@
-{
-  "folderNotePref": 1,
-  "deleteOutsideNoteWithFolder": false,
-  "indexName": "_about_",
-  "autoRename": true,
-  "folderNoteTemplate": "Type: #domain\nCreated:: ;today\nStatus:: [[Identified]]\nDomain:: ;domain\nDetails:: \n```pack-view domain\n```",
-  "logLevel": 4
-}
