@@ -2,31 +2,19 @@ OAKS (Obsidian Action and Knowledge System) is my proposal for an Obsidian power
 
 # Installation
 
-1. Clone or download and unzip this repo
-2. Set it up as new Obsidian vault
-3. Install required plugins
-    1. Advanced New File
-    2. AidenLx's Folder Note
-    3. Auto Link Title
-    4. Codeblock Template
-    5. Dataview
-    6. Folder Note Core
-    7. Icon Shortcodes
-    8. Inline Scripts
-    9. List Modified
-    10. Minimal Theme Settings
-    11. Natural Language Dates
-    12. Supercharged Links
-4. Install optional plugins
-    1. Git
-    2. Remotely Secure
-5. Set optional git repository options
+1. Clone this repo and set it up as new vault
+2. Restore required plugins
+    1. Install Screwdriver
+    2. Switch to `Xtra/Required Plugins` file 
+    3. Run `Screwdriver: Restore exported files from the active file` command
+    4. Open Community plugins settings, check for updates and update all
+3. Open Appearance settings, install Minimal theme and turn on desired snippets
+4. Set optional Git repository options
 
    ```bash
     git config core.autocrlf false # Obsidian works with LF only for now
     git config user.name <your name>
     git config user.email <your mail>
-    git update-index --assume-unchanged .obsidian/plugins/obsidian-list-modified/data.json # Tracked notes are stored in plugin settings for now
     ```
 
 # Roadmap
@@ -38,7 +26,7 @@ OAKS (Obsidian Action and Knowledge System) is my proposal for an Obsidian power
 - [ ] Advanced view (reusable, drill down-able, sortable, filterable) [🏅:: 1]
 - [ ] Auto journaling [🏅:: 3]
 - [ ] Custom templates (item, collection, issue link) [🏅:: 3]
-- [ ] Better file management (folder note, attachement) [🏅:: 3]
+- [ ] Better file management (folder note, attachment) [🏅:: 3]
 - [ ] Extended search (PDF, backlink)[🏅:: 3]
 - [ ] Inbox and unresolved links processing [🏅:: 3]
 - [ ] Extended import and export (CSV, slide deck, Word) [🏅:: 3]
