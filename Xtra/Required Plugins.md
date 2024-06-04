@@ -9,6 +9,35 @@ comment: "Allow required plugins restoration"
 ---
 
 
+# .obsidian/plugins/codeblock-template/manifest.json 
+- Created :6/4/2024, 5:05:05 PM 
+- Modified:6/4/2024, 5:05:05 PM 
+
+```screwdriver:.obsidian/plugins/codeblock-template/manifest.json:plain
+{
+	"id": "codeblock-template",
+	"name": "Codeblock Template",
+	"version": "0.0.0",
+	"description": "Re-use content within codeblocks using variables.",
+	"author": "Super10",
+	"isDesktopOnly": false
+}
+```
+# .obsidian/plugins/dataview/manifest.json 
+- Created :6/4/2024, 5:05:58 PM 
+- Modified:6/4/2024, 5:05:58 PM 
+
+```screwdriver:.obsidian/plugins/dataview/manifest.json:plain
+{
+  "id": "dataview",
+  "name": "Dataview",
+  "version": "0.0.0",
+  "description": "Complex data views for the data-obsessed.",
+  "author": "Michael Brenan <blacksmithgu@gmail.com>",
+  "isDesktopOnly": false
+}
+
+```
 # .obsidian/plugins/obsidian-screwdriver/manifest.json 
 - Created :6/4/2024, 3:14:44 PM 
 - Modified:6/4/2024, 3:14:44 PM 
