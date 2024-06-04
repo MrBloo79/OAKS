@@ -18,5 +18,6 @@
 !Xtra/View/
 !Xtra/View/*
 !Xtra/Vault.md
+.obsidian/appearance.json
 .obsidian/core-plugins-migration.json
 .obsidian/workspace.json

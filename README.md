@@ -4,8 +4,7 @@ OAKS (Obsidian Action and Knowledge System) is my proposal for an Obsidian power
 
 1. Clone or download and unzip this repo
 2. Set it up as new Obsidian vault
-3. Install Minimal theme
-4. Install required plugins
+3. Install required plugins
     1. Advanced New File
     2. AidenLx's Folder Note
     3. Auto Link Title
@@ -18,10 +17,11 @@ OAKS (Obsidian Action and Knowledge System) is my proposal for an Obsidian power
     10. Minimal Theme Settings
     11. Natural Language Dates
     12. Supercharged Links
-5. Install optional plugins
+4. Install optional plugins
     1. Git
     2. Remotely Secure
-6. Set optional git repository options
+5. Set optional git repository options
+
    ```bash
     git config core.autocrlf false # Obsidian works with LF only for now
     git config user.name <your name>
