@@ -49,11 +49,10 @@ function getMetadata(type) {
         metadata += 'Activity:: \n';
         metadata += 'Environment:: \n';
     }
-    if (type == 'project') {
-        metadata += '\n# Content\n\n';
-        metadata += '# Journal\n\n';
+    if (type == 'domain') {
+        metadata += '```pack-view domain\n';
+        metadata += '```\n';
     }
-   
     return metadata;
 }
 ```
@@ -119,6 +118,15 @@ contact
 __
 ```js
 return getMetadata('contact');
+```
+__
+__
+```
+domain
+```
+__
+```js
+return getMetadata('domain');
 ```
 __
 __
