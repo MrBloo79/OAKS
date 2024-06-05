@@ -1,4 +1,4 @@
-Project and assets metadata
+Project and others metadata
 __
 __
 ```js
@@ -17,47 +17,108 @@ __
 __
 __
 ```js
-// Get file type depending on type
-function getMetadata(base, derived="", extra="") {
-    type = '';
-    if (base == 'project') {
-        type += '# type\n\n';
-    }
-    let tags = [derived, base, extra].filter(t => t !== "").join(', #');
-    type += `Type: #${tags}\n`;
+// Get file metadata depending on type
+function getMetadata(type) {
+    atomicTypes = ['hint', 'post', 'tool', 'file', 'mail', 'memo'];
+    metadata = '---\n';
+    metadata += `tags: ${type}\n`;
+    metadata += '---\n\n';
     let date = new Date().toISOString().slice(0, 10);
-    type += `Created:: ${date}\n`;
-    if (base == 'project') {
-        type += 'Due:: \n';
+    metadata += `Created:: ${date}\n`;
+    if (type == 'project') {
+        metadata += 'Due:: \n';
     }
-    type += 'Status:: [[Identified]]\n';
-    if (base == 'item' || base == 'project') {
-        type += 'Rank:: \n';
-        type += 'Recipient:: \n';
+    metadata += 'Status:: [[Identified]]\n';
+    if (type == 'project' || !atomicTypes.includes(type)) {
+        metadata += 'Rank:: \n';
+        metadata += 'Recipient:: \n';
     }
-    if (base == 'project') {
-        type += 'Requester:: \n';
-        type += 'Assignee:: \n';
+    if (type == 'project') {
+        metadata += 'Requester:: \n';
+        metadata += 'Assignee:: \n';
     }
     let domain = getDomain(app.workspace.getActiveFile().path);
-    type += `Domain:: ${domain}\n`;
-    type += 'Details:: \n';
-    if (derived == 'contact' || base == 'item' || base == 'project') {
-        type += 'Motive:: \n';
+    metadata += `Domain:: ${domain}\n`;
+    metadata += 'Details:: \n';
+    if (type == !atomicTypes.includes(type)) {
+        metadata += 'Motive:: \n';
     }
-    if (derived == 'contact') {
-        type += 'Mail: \n';
-        type += 'Phone: \n';
-        type += 'Activity:: \n';
-        type += 'Environment:: \n';
+    if (type == 'contact') {
+        metadata += 'Mail: \n';
+        metadata += 'Phone: \n';
+        metadata += 'Activity:: \n';
+        metadata += 'Environment:: \n';
     }
-     if (base == 'project') {
-        type += '\n# Content\n\n';
-        type += '# Journal\n\n';
+    if (type == 'project') {
+        metadata += '\n# Content\n\n';
+        metadata += '# Journal\n\n';
     }
    
-    return type;
+    return metadata;
 }
+```
+__
+__
+```
+hint
+```
+__
+```js
+return getMetadata('hint');
+```
+__
+__
+```
+post
+```
+__
+```js
+return getMetadata('post');
+```
+__
+__
+```
+tool
+```
+__
+```js
+return getMetadata('tool');
+```
+__
+__
+```
+file
+```
+__
+```js
+return getMetadata('file');
+```
+__
+__
+```
+memo
+```
+__
+```js
+return getMetadata('memo');
+```
+__
+__
+```
+mail
+```
+__
+```js
+return getMetadata('mail');
+```
+__
+__
+```
+contact
+```
+__
+```js
+return getMetadata('contact');
 ```
 __
 __
@@ -67,68 +128,5 @@ project
 __
 ```js
 return getMetadata('project');
-```
-__
-__
-```
-contact
-```
-__
-```js
-return getMetadata('asset', 'contact');
-```
-__
-__
-```
-doc
-```
-__
-```js
-return getMetadata('asset', 'doc');
-```
-__
-__
-```
-mail
-```
-__
-```js
-return getMetadata('asset', 'mail');
-```
-__
-__
-```
-article
-```
-__
-```js
-return getMetadata('asset', 'article');
-```
-__
-__
-```
-tool
-```
-__
-```js
-return getMetadata('asset', 'tool');
-```
-__
-__
-```
-memo
-```
-__
-```js
-return getMetadata('asset', 'memo');
-```
-__
-__
-```
-hint
-```
-__
-```js
-return getMetadata('asset', 'hint');
 ```
 __
