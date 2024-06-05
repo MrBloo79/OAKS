@@ -49,7 +49,22 @@ comment: "Allow required plugins restoration"
   "description": "Create date-links based on natural language",
   "version": "0.0.0",
   "author": "Argentina Ortega Sainz",
-  "isDesktopOnly": false,
+  "isDesktopOnly": false
+}
+
+```
+# .obsidian/plugins/obsidian-advanced-new-file/manifest.json 
+- Created :6/5/2024, 10:06:51 AM 
+- Modified:6/5/2024, 10:06:51 AM 
+
+```screwdriver:.obsidian/plugins/obsidian-advanced-new-file/manifest.json:plain
+{
+	"id": "obsidian-advanced-new-file",
+	"name": "Advanced new file",
+	"version": "0.0.0",
+	"description": "This is a plugin for choosing folder on note creation.",
+	"author": "vanadium23",
+	"isDesktopOnly": false
 }
 
 ```
