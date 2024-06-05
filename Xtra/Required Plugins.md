@@ -97,3 +97,18 @@ comment: "Allow required plugins restoration"
 }
 
 ```
+# .obsidian/plugins/obsidian-text-expander-js/manifest.json 
+- Created :6/5/2024, 10:17:23 AM 
+- Modified:6/5/2024, 10:17:23 AM 
+
+```screwdriver:.obsidian/plugins/obsidian-text-expander-js/manifest.json:plain
+{
+	"id": "obsidian-text-expander-js",
+	"name": "Inline Scripts",
+	"version": "0.0.0",
+	"description": "Type text shortcuts which are then replaced with JavaScript generated text.",
+	"author": "Jonathan Heard",
+	"isDesktopOnly": false
+}
+
+```
