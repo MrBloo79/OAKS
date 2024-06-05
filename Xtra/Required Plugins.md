@@ -38,6 +38,21 @@ comment: "Allow required plugins restoration"
 }
 
 ```
+# .obsidian/plugins/nldates-obsidian/manifest.json 
+- Created :6/5/2024, 9:55:23 AM 
+- Modified:6/5/2024, 9:55:23 AM 
+
+```screwdriver:.obsidian/plugins/nldates-obsidian/manifest.json:plain
+{
+  "id": "nldates-obsidian",
+  "name": "Natural Language Dates",
+  "description": "Create date-links based on natural language",
+  "version": "0.0.0",
+  "author": "Argentina Ortega Sainz",
+  "isDesktopOnly": false,
+}
+
+```
 # .obsidian/plugins/obsidian-icon-shortcodes/manifest.json 
 - Created :6/4/2024, 5:50:53 PM 
 - Modified:6/4/2024, 5:50:53 PM 
