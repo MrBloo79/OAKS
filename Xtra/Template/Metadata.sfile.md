@@ -19,7 +19,7 @@ __
 ```js
 // Get file metadata depending on type
 function getMetadata(type) {
-    atomicTypes = ['hint', 'post', 'tool', 'file', 'mail', 'memo'];
+    atomicTypes = ['hint', 'post', 'tool', 'file', 'mail', 'memo', 'domain'];
     metadata = '---\n';
     metadata += `tags: ${type}\n`;
     metadata += '---\n\n';
