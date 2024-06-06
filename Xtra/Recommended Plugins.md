@@ -126,3 +126,18 @@ comment: "Hijack update feature to install recommended plugins"
 }
 
 ```
+# .obsidian/plugins/remotely-save/manifest.json 
+- Created :6/6/2024, 5:33:39 PM 
+- Modified:6/6/2024, 5:33:39 PM 
+
+```screwdriver:.obsidian/plugins/remotely-save/manifest.json:plain
+{
+  "id": "remotely-save",
+  "name": "Remotely Save",
+  "version": "0.0.0",
+  "description": "Yet another unofficial plugin allowing users to synchronize notes between local device and the cloud service.",
+  "author": "fyears",
+  "isDesktopOnly": false,
+}
+
+```
