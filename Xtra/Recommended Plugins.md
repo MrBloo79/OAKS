@@ -5,7 +5,7 @@ ignores:
   - /.git
 filters:
   - manifest\.json$
-comment: "Allow required plugins restoration"
+comment: "Hijack update feature to install recommended plugins"
 ---
 
 
@@ -80,6 +80,20 @@ comment: "Allow required plugins restoration"
   "description": "Insert emoji and custom icons with shortcodes",
   "author": "AidenLx",
   "isDesktopOnly": false
+}
+```
+# .obsidian/plugins/obsidian-minimal-settings/manifest.json 
+- Created :6/6/2024, 5:14:40 PM 
+- Modified:6/6/2024, 5:14:40 PM 
+
+```screwdriver:.obsidian/plugins/obsidian-minimal-settings/manifest.json:plain
+{
+	"id": "obsidian-minimal-settings",
+	"name": "Minimal Theme Settings",
+	"version": "0.0.0",
+	"description": "Change the colors, fonts and features of Minimal Theme.",
+	"author": "@kepano",
+	"isDesktopOnly": false
 }
 ```
 # .obsidian/plugins/obsidian-screwdriver/manifest.json 
