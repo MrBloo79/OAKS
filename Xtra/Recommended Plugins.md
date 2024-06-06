@@ -137,7 +137,7 @@ comment: "Hijack update feature to install recommended plugins"
   "version": "0.0.0",
   "description": "Yet another unofficial plugin allowing users to synchronize notes between local device and the cloud service.",
   "author": "fyears",
-  "isDesktopOnly": false,
+  "isDesktopOnly": false
 }
 
 ```
