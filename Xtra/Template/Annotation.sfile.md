@@ -1,11 +1,11 @@
 Inline task annotations
 __
 ```
-rank
+value
 ```
 __
 ```js
-return "[🏅:: ]";
+return "[⭐:: ]";
 ```
 __
 __
@@ -14,7 +14,7 @@ requester
 ```
 __
 ```js
-return "[💬:: [[]";
+return "[💬:: ]";
 ```
 __
 __
@@ -23,16 +23,25 @@ assignee
 ```
 __
 ```js
-return "[👤:: [[]";
+return "[👤:: ]";
 ```
 __
 __
 ```
-details
+more
 ```
 __
 ```js
-return "[ℹ️:: [[]";
+return "[🔗:: ]";
+```
+__
+__
+```
+link
+```
+__
+```js
+return "[🔗:: ]";
 ```
 __
 __
@@ -68,9 +77,51 @@ blockId
 ```
 __
 ```js
-// Unique ID with low collision probability: https://github.com/ai/nanoid
-const nanoid=crypto.getRandomValues(new Uint8Array(11)).reduce(((t,e)=>t+=(e&=63)<36?e.toString(36):e<62?(e-26).toString(36).toUpperCase():e>62?"-":"_"),"");
+// Unique ID with low collision probability from https://github.com/ai/nanoid
+const POOL_SIZE_MULTIPLIER = 128
+let pool, poolOffset
 
-return ` ^${nanoid}`;
+function fillPool(bytes) {
+  if (!pool || pool.length < bytes) {
+    pool = Buffer.allocUnsafe(bytes * POOL_SIZE_MULTIPLIER)
+    crypto.getRandomValues(pool)
+    poolOffset = 0
+  } else if (poolOffset + bytes > pool.length) {
+    crypto.getRandomValues(pool)
+    poolOffset = 0
+  }
+  poolOffset += bytes
+}
+
+function random(bytes) {
+  fillPool((bytes -= 0))
+  return pool.subarray(poolOffset - bytes, poolOffset)
+}
+
+function customRandom(alphabet, defaultSize, getRandom) {
+  let mask = (2 << (31 - Math.clz32((alphabet.length - 1) | 1))) - 1
+  let step = Math.ceil((1.6 * mask * defaultSize) / alphabet.length)
+
+  return (size = defaultSize) => {
+    let id = ''
+    while (true) {
+      let bytes = getRandom(step)
+
+      let i = step
+      while (i--) {
+        id += alphabet[bytes[i] & mask] || ''
+        if (id.length === size) return id
+      }
+    }
+  }
+}
+
+function customAlphabet(alphabet, size = 21) {
+  return customRandom(alphabet, size, random)
+}
+
+const nanoid = customAlphabet('0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz', 9)
+
+return ` ^${nanoid()}`;
 ```
 __

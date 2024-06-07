@@ -3,12 +3,12 @@
 
 ```dataview
 TABLE WITHOUT ID
-    Domain,
     file.link AS Project,
     link(Status, Status.aliases) AS S,
-    Rank AS P,
+    Value AS V,
     Due,
-    Details
+    Domain,
+    More
 FROM #project
 WHERE contains(file.path, replace(this.file.name, "Vault", "/"))
 ```
@@ -17,12 +17,12 @@ WHERE contains(file.path, replace(this.file.name, "Vault", "/"))
 
 ```dataview
 TABLE WITHOUT ID
-    file.link AS Project,
-    regexreplace(task.text, "([➕📅⏳✅]|(\[|\()[🏅💬👤🔗]).*", "") AS Action,
+    regexreplace(task.text, "((➕|📅|⏳|✅)|(\(|\[)(⭐|💬|👤|🔗)).*", "") AS Action,
     [[Map]].get[task.status] AS S,
-    task.🏅 AS P,
+    task.⭐ AS V,
     task.due AS Due,
-    task.🔗 AS Details
+    file.link AS Project,
+    task.🔗 AS More
 FROM #project
 FLATTEN file.tasks AS task
 WHERE contains(file.path, replace(this.file.name, "Vault", "/"))
@@ -32,12 +32,12 @@ WHERE contains(file.path, replace(this.file.name, "Vault", "/"))
 
 ```dataview
 TABLE WITHOUT ID
-    Domain,
     file.link AS Asset,
-    Status,
+    link(Status, Status.aliases) AS S,
     file.tags[0] AS Type,
-    Details
-FROM !#project AND !#domain AND !"Xtra"
+    Domain,
+    More
+FROM !#project AND !"Xtra"
 WHERE contains(file.path, replace(this.file.name, "Vault", "/"))
 ```
 ````

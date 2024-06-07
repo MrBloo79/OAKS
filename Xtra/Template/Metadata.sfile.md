@@ -17,7 +17,7 @@ __
 __
 __
 ```js
-// Get file metadata depending on type
+// Get file metadata depending on type (project, contact, atomic or other)
 function getMetadata(type) {
     atomicTypes = ['hint', 'post', 'tool', 'file', 'mail', 'memo', 'domain'];
     metadata = '---\n';
@@ -29,8 +29,8 @@ function getMetadata(type) {
         metadata += 'Due:: \n';
     }
     metadata += 'Status:: [[Identified]]\n';
-    if (type == 'project' || !atomicTypes.includes(type)) {
-        metadata += 'Rank:: \n';
+    if (!atomicTypes.includes(type) && type != 'contact') {
+        metadata += 'Value:: \n';
         metadata += 'Recipient:: \n';
     }
     if (type == 'project') {
@@ -39,8 +39,8 @@ function getMetadata(type) {
     }
     let domain = getDomain(app.workspace.getActiveFile().path);
     metadata += `Domain:: ${domain}\n`;
-    metadata += 'Details:: \n';
-    if (type == !atomicTypes.includes(type)) {
+    metadata += 'More:: \n';
+    if (!atomicTypes.includes(type)) {
         metadata += 'Motive:: \n';
     }
     if (type == 'contact') {
