@@ -21,7 +21,7 @@ TABLE WITHOUT ID
     [[Map]].get[task.status] AS S,
     task.⭐ AS V,
     task.due AS Due,
-    file.link AS Project,
+    link(choice(task.blockId,file.name + "#^" +task.blockId,file.name),file.name) AS Project,
     task.🔗 AS More
 FROM #project
 FLATTEN file.tasks AS task

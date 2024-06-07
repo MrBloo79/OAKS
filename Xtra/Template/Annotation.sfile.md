@@ -122,6 +122,6 @@ function customAlphabet(alphabet, size = 21) {
 
 const nanoid = customAlphabet('0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz', 9)
 
-return ` ^${nanoid()}`;
+return `^${nanoid()}`;
 ```
 __
