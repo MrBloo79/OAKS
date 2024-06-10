@@ -10,7 +10,7 @@ TABLE WITHOUT ID
     Domain,
     More
 FROM #project
-WHERE contains(file.path, replace(this.file.name, "Vault", "/"))
+WHERE contains(file.path, this.file.name)
 ```
 
 # Action Zone
@@ -25,7 +25,7 @@ TABLE WITHOUT ID
     task.🔗 AS More
 FROM #project
 FLATTEN file.tasks AS task
-WHERE contains(file.path, replace(this.file.name, "Vault", "/"))
+WHERE contains(file.path, this.file.name)
 ```
 
 # Knowledge Zone
@@ -37,7 +37,7 @@ TABLE WITHOUT ID
     file.tags[0] AS Type,
     Domain,
     More
-FROM !#project AND !"Xtra"
-WHERE contains(file.path, replace(this.file.name, "Vault", "/"))
+FROM !#project
+WHERE contains(file.path, this.file.name)
 ```
 ````
