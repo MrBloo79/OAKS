@@ -141,3 +141,18 @@ comment: "Hijack update feature to install recommended plugins"
 }
 
 ```
+# .obsidian/plugins/supercharged-links-obsidian/manifest.json 
+- Created :6/13/2024, 2:30:34 PM 
+- Modified:6/13/2024, 2:30:34 PM 
+
+```screwdriver:.obsidian/plugins/supercharged-links-obsidian/manifest.json:plain
+{
+	"id": "supercharged-links-obsidian",
+	"name": "Supercharged Links",
+	"version": "0.0.0",
+	"description": "Add properties and menu options to links and style them!",
+	"author": "mdelobelle & Emile",
+	"isDesktopOnly": false
+}
+
+```

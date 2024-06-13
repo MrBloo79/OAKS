@@ -1,6 +1,0 @@
-.theme-dark.minimal-macos-dark {
-    --icon-color-hover: var(--icon-color) !important;
-    --inline-title-color: var(--text-normal);
-    --text-selection: hsla(var(--color-accent-hsl), 0.2);
-    --text-highlight-bg: hsla(calc(180 + var(--accent-h)), var(--accent-s), calc(var(--accent-l)), 0.2);
-}
