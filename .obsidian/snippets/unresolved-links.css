@@ -1,10 +1,6 @@
-.cm-hmd-internal-link:has(.is-unresolved) {
-    opacity: 1 !important;
+.is-unresolved, .cm-hmd-internal-link:has(.is-unresolved), .is-unresolved .cm-underline {
     pointer-events: none !important;
-}
-.is-unresolved {
-    color: var(--color-red) !important;
-}
-.is-unresolved .cm-underline {
     text-decoration: none !important;
+    color: var(--color-red) !important;
+    opacity: .95 !important;
 }
