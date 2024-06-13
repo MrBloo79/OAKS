@@ -38,6 +38,21 @@ comment: "Hijack update feature to install recommended plugins"
 }
 
 ```
+# .obsidian/plugins/folder-notes/manifest.json 
+- Created :6/13/2024, 3:05:35 PM 
+- Modified:6/13/2024, 3:05:35 PM 
+
+```screwdriver:.obsidian/plugins/folder-notes/manifest.json:plain
+{
+	"id": "folder-notes",
+	"name": "Folder notes",
+	"version": "0.0.0",
+	"description": "Create notes within folders that can be accessed without collapsing the folder, similar to the functionality offered in Notion.",
+	"author": "Lost Paul",
+	"isDesktopOnly": false
+}
+
+```
 # .obsidian/plugins/nldates-obsidian/manifest.json 
 - Created :6/5/2024, 9:55:23 AM 
 - Modified:6/5/2024, 9:55:23 AM 
