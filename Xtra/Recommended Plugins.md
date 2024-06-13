@@ -122,6 +122,22 @@ comment: "Hijack update feature to install recommended plugins"
 	"version": "0.0.0",
 	"description": "Utility to put any files in and out under your vault.",
 	"author": "vorotamoroz",
+	"authorUrl": "https://github.com/vrtmrz",
+	"isDesktopOnly": false
+}
+
+```
+# .obsidian/plugins/obsidian-style-settings/manifest.json 
+- Created :6/13/2024, 3:16:42 PM 
+- Modified:6/13/2024, 3:35:44 PM 
+
+```screwdriver:.obsidian/plugins/obsidian-style-settings/manifest.json:plain
+{
+	"id": "obsidian-style-settings",
+	"name": "Style Settings",
+	"version": "0.0.0",
+	"description": "Offers controls for adjusting theme, plugin, and snippet CSS variables.",
+	"author": "mgmeyers",
 	"isDesktopOnly": false
 }
 
