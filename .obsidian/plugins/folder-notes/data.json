@@ -50,8 +50,7 @@
   },
   "settingsTab": "general",
   "supportedFileTypes": [
-    "md",
-    "canvas"
+    "md"
   ],
   "boldName": false,
   "boldNameInPath": false,
