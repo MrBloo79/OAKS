@@ -83,6 +83,21 @@ comment: "Hijack update feature to install recommended plugins"
 }
 
 ```
+# .obsidian/plugins/obsidian-hover-editor/manifest.json 
+- Created :6/13/2024, 3:48:56 PM 
+- Modified:6/13/2024, 3:48:56 PM 
+
+```screwdriver:.obsidian/plugins/obsidian-hover-editor/manifest.json:plain
+{
+  "id": "obsidian-hover-editor",
+  "name": "Hover Editor",
+  "version": "0.0.0",
+  "description": "Transform the Page Preview hover popover into a fully working editor instance",
+  "author": "NothingIsLost",
+  "isDesktopOnly": false
+}
+
+```
 # .obsidian/plugins/obsidian-icon-shortcodes/manifest.json 
 - Created :6/4/2024, 5:50:53 PM 
 - Modified:6/4/2024, 5:50:53 PM 
