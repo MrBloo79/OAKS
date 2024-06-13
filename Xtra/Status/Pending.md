@@ -1,4 +1,4 @@
 ---
-aliases: "₅:luc_send:"
+aliases: "₅:lud_send_horizontal::"
 tags: "orange"
 ---

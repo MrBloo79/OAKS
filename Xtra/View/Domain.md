@@ -18,7 +18,7 @@ WHERE contains(file.path, this.file.name)
 ```dataview
 TABLE WITHOUT ID
     regexreplace(task.text, "((➕|📅|⏳|✅)|(\(|\[)(⭐|💬|👤|🔗)).*", "") AS Action,
-    [[Map]].get[task.status] AS S,
+    [[Icon]].get[task.status] AS S,
     task.⭐ AS V,
     task.due AS Due,
     link(choice(task.blockId,file.name + "#^" +task.blockId,file.name),file.name) AS Project,

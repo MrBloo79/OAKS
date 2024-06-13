@@ -2,7 +2,8 @@
   "code2emoji": true,
   "suggester": true,
   "disabledPacks": [
-    "obs"
+    "obs",
+    "luc"
   ],
   "triggerWithTrailingSpace": false,
   "spaceAfterSC": false,
