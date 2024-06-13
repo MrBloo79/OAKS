@@ -2,13 +2,16 @@
   "sourcePath": "Xtra/View",
   "oldValidSourcePath": "Xtra/View",
   "sourceNameList": [
+    "list",
     "domain"
   ],
   "sourceName2FilePath": {
+    "list": "Xtra/View/List.md",
     "domain": "Xtra/View/Domain.md"
   },
   "anonymousVariableNamePrefix": "anonymous_var_",
   "sourceInfos": {
+    "list": [],
     "domain": []
   }
 }

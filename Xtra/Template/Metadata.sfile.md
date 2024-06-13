@@ -49,8 +49,8 @@ function getMetadata(type) {
         metadata += 'Activity:: \n';
         metadata += 'Environment:: \n';
     }
-    if (type == 'domain') {
-        metadata += '```pack-view domain\n';
+    if (type == 'domain' || type == 'list') {
+        metadata += '```pack-view ${type}\n';
         metadata += '```\n';
     }
     return metadata;
@@ -127,6 +127,105 @@ domain
 __
 ```js
 return getMetadata('domain');
+```
+__
+__
+```
+book
+```
+__
+```js
+return getMetadata('book');
+```
+__
+__
+```
+comics
+```
+__
+```js
+return getMetadata('comics');
+```
+__
+__
+```
+single
+```
+__
+```js
+return getMetadata('single');
+```
+__
+__
+```
+album
+```
+__
+```js
+return getMetadata('album');
+```
+__
+__
+```
+artist
+```
+__
+```js
+return getMetadata('artist');
+```
+__
+__
+```
+movie
+```
+__
+```js
+return getMetadata('movie');
+```
+__
+__
+```
+series
+```
+__
+```js
+return getMetadata('series');
+```
+__
+__
+```
+toy
+```
+__
+```js
+return getMetadata('toy');
+```
+__
+__
+```
+party
+```
+__
+```js
+return getMetadata('party');
+```
+__
+__
+```
+arcade
+```
+__
+```js
+return getMetadata('arcade');
+```
+__
+__
+```
+list
+```
+__
+```js
+return getMetadata('list');
 ```
 __
 __
