@@ -126,6 +126,21 @@ comment: "Hijack update feature to install recommended plugins"
 	"isDesktopOnly": false
 }
 ```
+# .obsidian/plugins/obsidian-plugin-update-tracker/manifest.json 
+- Created :6/18/2024, 10:32:23 AM 
+- Modified:6/18/2024, 10:32:23 AM 
+
+```screwdriver:.obsidian/plugins/obsidian-plugin-update-tracker/manifest.json:plain
+{
+	"id": "obsidian-plugin-update-tracker",
+	"name": "Plugin Update Tracker",
+	"version": "0.0.0",
+	"description": "Know when installed plugins have updates and evaluate the risk of upgrading",
+	"author": "Obsidian",
+	"isDesktopOnly": false
+}
+
+```
 # .obsidian/plugins/obsidian-screwdriver/manifest.json 
 - Created :6/4/2024, 3:14:44 PM 
 - Modified:6/4/2024, 3:14:44 PM 
