@@ -157,6 +157,21 @@ comment: "Hijack update feature to install recommended plugins"
 }
 
 ```
+# .obsidian/plugins/obsidian-sortable/manifest.json 
+- Created :6/18/2024, 10:54:52 AM 
+- Modified:6/18/2024, 10:54:53 AM 
+
+```screwdriver:.obsidian/plugins/obsidian-sortable/manifest.json:plain
+{
+    "id": "obsidian-sortable",
+    "name": "Sortable",
+    "version": "0.3.1",
+    "description": "Wiki-like table sorting.",
+    "author": "Alexandru Dinu",
+    "isDesktopOnly": false
+}
+
+```
 # .obsidian/plugins/obsidian-style-settings/manifest.json 
 - Created :6/13/2024, 3:16:42 PM 
 - Modified:6/13/2024, 3:35:44 PM 

@@ -4,21 +4,19 @@
 !.obsidian/*
 !.obsidian/plugins/*/
 !.obsidian/plugins/*/data.json
+!.obsidian/plugins/obsidian-sortable/*
 !.obsidian/snippets
 !.obsidian/snippets/*
-!LICENSE
+!LICENSE.md
 !README.md
 !Xtra/
 !Xtra/Required Plugins.md
 !Xtra/Status/
 !Xtra/Status/*
-!Xtra/Shortcut/
-!Xtra/Shortcut/*
 !Xtra/Template/
 !Xtra/Template/*
 !Xtra/View/
 !Xtra/View/*
-!Xtra/Vault.md
 .obsidian/appearance.json
 .obsidian/core-plugins-migration.json
 .obsidian/icons/lud_send_horizontal.svg
