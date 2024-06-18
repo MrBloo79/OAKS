@@ -1,4 +1,13 @@
 {
+  "daily-notes": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "D"
+    }
+  ],
   "obsidian-advanced-new-file:advanced-new-file": [
     {
       "modifiers": [

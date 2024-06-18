@@ -1,3 +1,2 @@
-## What actions will you take today to achieve your [[Vault|goals]]?
+## Do the right thing, at the right time, the right way
 
-## Changed Notes
