@@ -5,12 +5,12 @@ __
 // Get folder as domain
 function getDomain(path) {
   let parts = path.split("/");
-  for (let i = parts.length - 2; i >= 0; i--) {
-    if (parts[i] !== "Asset" && parts[i] !== "Project") {
-      return `[[${parts[i]}]]`;
-    }
+  let fileName = parts.pop();
+  let parentName = parts.pop();
+  if (fileName.slice(0, -3) != parentName) {
+      return parentName;
   }
-  return "[[Vault]]";
+  return parts.pop();
 }
 ```
 __
