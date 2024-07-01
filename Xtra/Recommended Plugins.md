@@ -166,8 +166,10 @@ comment: "Hijack update feature to install recommended plugins"
     "id": "obsidian-sortable",
     "name": "Sortable",
     "version": "0.3.1",
+    "minAppVersion": "0.12.0",
     "description": "Wiki-like table sorting.",
     "author": "Alexandru Dinu",
+    "authorUrl": "https://github.com/alexandru-dinu",
     "isDesktopOnly": false
 }
 

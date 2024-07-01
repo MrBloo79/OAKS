@@ -19,7 +19,7 @@ __
 ```js
 // Get file metadata depending on type (project, contact, atomic or other)
 function getMetadata(type) {
-    atomicTypes = ['hint', 'post', 'tool', 'file', 'mail', 'memo', 'domain'];
+    atomicTypes = ['hint', 'post', 'tool', 'file', 'mail', 'memo', 'domain', 'list'];
     metadata = '---\n';
     metadata += `tags: ${type}\n`;
     metadata += '---\n\n';
@@ -50,7 +50,7 @@ function getMetadata(type) {
         metadata += 'Environment:: \n';
     }
     if (type == 'domain' || type == 'list') {
-        metadata += '```pack-view ${type}\n';
+        metadata += `\`\`\`pack-view ${type}\n`;
         metadata += '```\n';
     }
     return metadata;

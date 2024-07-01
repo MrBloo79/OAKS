@@ -1,4 +1,5 @@
 ````pack-source list
+%% Vertical spacer %%
 ```dataview
 TABLE WITHOUT ID
     file.link AS Name,
