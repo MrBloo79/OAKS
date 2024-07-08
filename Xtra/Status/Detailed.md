@@ -1,4 +1,4 @@
 ---
-aliases: "₂:luc_info:"
-tags: "blue"
+aliases: "₃:luc_info:"
+tags: "cyan"
 ---
