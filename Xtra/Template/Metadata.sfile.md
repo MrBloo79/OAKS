@@ -38,7 +38,7 @@ function getMetadata(type) {
         metadata += 'Assignee:: \n';
     }
     let domain = getDomain(app.workspace.getActiveFile().path);
-    metadata += `Domain:: ${domain}\n`;
+    metadata += `Domain:: [[${domain}]]\n`;
     metadata += 'More:: \n';
     if (!atomicTypes.includes(type)) {
         metadata += 'Motive:: \n';
