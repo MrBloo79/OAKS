@@ -2,6 +2,7 @@
 !.gitignore
 !.obsidian/
 !.obsidian/*
+!.obsidian/icons/*
 !.obsidian/plugins/*/
 !.obsidian/plugins/*/data.json
 !.obsidian/plugins/obsidian-sortable/*
@@ -19,5 +20,4 @@
 !Xtra/View/*
 .obsidian/appearance.json
 .obsidian/core-plugins-migration.json
-.obsidian/icons/lud_send_horizontal.svg
 .obsidian/workspace.json
