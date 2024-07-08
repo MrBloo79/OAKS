@@ -9,6 +9,6 @@ TABLE WITHOUT ID
     Motive,
     More
 FROM !#project
-WHERE contains(file.path, this.file.name) AND file.path != this.file.path
+WHERE contains(file.path, this.file.name) AND file.name != this.file.name
 ```
 ````
