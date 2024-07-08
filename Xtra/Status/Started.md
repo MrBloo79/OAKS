@@ -1,4 +1,4 @@
 ---
-aliases: "₄:luc_contrast:"
+aliases: "₅:luc_contrast:"
 tags: "yellow"
 ---

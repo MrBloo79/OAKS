@@ -1,4 +1,4 @@
 ---
-aliases: "₃:luc_calendar:"
+aliases: "₄:luc_calendar:"
 tags: "green"
 ---
